@@ -61,7 +61,8 @@ public class CargarArchivoArbol extends CButton {
         setTooltip("Cargado de archivo");
         Image image = null;
         try {
-            File sourceimage = new File("C:\\Users\\eugenio\\Documents\\proyectos\\CoreTesis\\Desarrollo\\Core\\src\\ima\\ico\\copy.png");
+            // File sourceimage = new File("C:\\Users\\eugenio\\Documents\\proyectos\\CoreTesis\\Desarrollo\\Core\\src\\ima\\ico\\copy.png");
+            File sourceimage = new File("/home/exile/Documentos/github/java/CoreTesis/Desarrollo/Core/src/ima/ico/copy.png");
             image = ImageIO.read(sourceimage);
         } catch (IOException e) {
             e.printStackTrace();
