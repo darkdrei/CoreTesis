@@ -22,6 +22,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -34,6 +35,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
+import javax.swing.JOptionPane;
 
 public class Core
         extends JFrame {
@@ -82,12 +84,16 @@ public class Core
         help.add(acercade);
 
         setJMenuBar(menubar);
-        addComponente.addActionListener(new ActionListener() {
+        JMenuItem Lista = new JMenuItem("Lista de Componentes");
+        componente.add(Lista);
+       
+        Lista.addActionListener(new ActionListener() {
             private int count = 0;
-
+            
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                 JDialog vista = new ListaComponentes(Core.this, true);
+                 vista.setVisible(true);
             }
 
         });

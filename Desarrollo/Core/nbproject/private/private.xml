@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Core/Core/src/logica/Pluguin.java</file>
-            <file>file:/D:/Core/Core/src/core/Ventana.java</file>
-            <file>file:/D:/Core/Core/src/logica/CargarArchivoArbol.java</file>
-            <file>file:/D:/Core/Core/src/logica/Core.java</file>
+            <file>file:/home/exile/Documentos/github/java/CoreTesis/Desarrollo/Core/src/logica/Core.java</file>
+            <file>file:/home/exile/Documentos/github/java/CoreTesis/Desarrollo/Core/src/logica/ListaComponentes.java</file>
+            <file>file:/home/exile/Documentos/github/java/CoreTesis/Desarrollo/Core/src/logica/ListaComponentes2.java</file>
+            <file>file:/home/exile/Documentos/github/java/CoreTesis/Desarrollo/Core/src/logica/LectorArchivo.java</file>
         </group>
     </open-files>
 </project-private>
